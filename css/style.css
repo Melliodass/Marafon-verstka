@@ -1,3 +1,5 @@
+/* 1. секция header */
+/* 2. секция top */
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -13,24 +15,94 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+/* 1. секция header =========================================================================================
+============================================================================================================= */
 .header__inner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 105px;
 }
 .header__text {
   margin-right: auto;
+  margin-left: 30px;
   color: #9a9a9a;
   font-size: 16px;
   font-weight: 400;
   
 }
-.header__phone {
+.header__phone  {
   font-size: 20px;
   font-weight: 500;
 }
-.header__phone-text {
+.header__phone a {
+  text-decoration: none;
+  color: #303030;
+  position: relative;
 }
+.header__phone a::before {
+  content: '';
+  background-image: url(../img/phone.svg);
+  height: 15px;
+  width: 15px;
+  top: 50%;
+  left: -27px;
+  position: absolute;
+  transform: translateY(-50%);
+
 }
 .header__phone-text {
+  color: #9a9a9a;
+  font-size: 12px;
+  font-weight: 400;
+}
+.header__phone-text {
+  padding-top: 3px;
+  text-align: right;
+}
+/* 2. секция top ===========================================================================================
+============================================================================================================ */
+.header__inner {
+
+}
+.top {
+}
+.top__images {
+  background-image: url(../img/top-bg.jpg);
+  min-height: 544px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1720px;
+  margin: 0 auto;
+}
+.top__wrapper {
+  margin-top: -450px;
+}
+.container {
+}
+.top__inner {
+  display: flex;
+  justify-content: space-between;
+
+}
+.top__inner-img {
+  margin-left: 125px;
+}
+.top__inner-form {
+  padding-top: 80px;
+  max-width: 570px;
+  width: 100%;
+}
+.top__inner-suptitle {
+}
+.top__inner-title {
+}
+.top__inner-text {
+}
+.top-form {
+}
+.top-form__inner {
+}
+.top-form__title {
 }
