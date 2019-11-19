@@ -1,5 +1,6 @@
 /* 1. секция header */
 /* 2. секция top */
+/* 3. секция advantages */
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -114,8 +115,87 @@ body {
    color: #ffffff;
 }
 .top-form {
+  background-color: #fff;
+  padding: 20px;
+  min-width: 530px;
+
+}
+.top-form form {
+  border: 1px solid #a4c58c;
 }
 .top-form__inner {
+  position: relative;
+  padding: 50px 50px 120px 50px;
+}
+.top-form__inner input{
+  border: none;
+  border-bottom: 1px solid #abc490;
+  width: 195px;
+  height: 1px;
+  opacity: 0.6;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  outline: none;
+}
+.top-form input + input {
+  margin-left: 25px;
+}
+.top-form__inner input::placeholder {
+  color: #a8c48c;
+  font-size: 14px;
+  font-weight: 400;
 }
 .top-form__title {
+  margin-bottom: 50px;
+  width: 185px;
+  color: #303030;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+.top-form button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 22px 110px 22px 70px;
+  color: #fff;
+  background-color: #7eb252;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  cursor: pointer;
+
+}
+.top-form button::after {
+  content: '';
+  position: absolute;
+  background-image: url(../img/arrow-right.png);
+  width: 31px;
+  height: 9px;
+  top: 50%;
+  right: 60px;
+  transform: translateY(-50%);
+  
+}
+
+/* 3. секция advantages ===========================================================================================
+============================================================================================================ */
+.advantages {
+}
+.advantages__inner {
+  display: flex;
+  justify-content: space-around;
+}
+.advantages__item {
+  width: 205px;
+  padding-left: 40px;
+  padding-top: 35px;
+}
+.advantages__item-number {
+}
+.advantages__item-text {
 }
