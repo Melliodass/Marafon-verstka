@@ -282,6 +282,21 @@ body {
 }
 .tab-item {
   display: none;
+
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  background: #a5c98a;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 10px solid #fff;
+  text-align: center;
+  line-height: 34px;
+
 }
 .tab-item:first-child {
   display: block;
