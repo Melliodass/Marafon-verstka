@@ -2,6 +2,7 @@
 /* 2. секция top */
 /* 3. секция advantages */
 /* 4. секция link */
+/* 5. секция popularity */
 
 
 *,
@@ -469,4 +470,39 @@ body {
   right: 100px;
   transform: translateY(-50%);
   
+}
+
+/* 5. секция popularity ===========================================================================================
+============================================================================================================ */
+.popularity {
+  padding-top: 200px;
+}
+
+.popularity__wrapper {
+  margin: 0 auto;
+  max-width: 1720px;
+  background-image: url(../img/popularity.jpg);
+  background-repeat: no-repeat;
+  min-height: 645px;
+}
+.container {
+}
+.popularity__inner {
+  display: flex;
+  align-items: flex-end;
+}
+.popularity__box {
+ 
+}
+.popularity__box-text {
+}
+.popularity__box-link {
+}
+.popularity__right {
+}
+.popularity__right-title {
+}
+.popularity__right-subtitle {
+}
+.popularity__right-list {
 }
