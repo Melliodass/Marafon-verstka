@@ -240,11 +240,13 @@ body {
 ============================================================================================================ */
 
 .list {
+  position: relative;
   padding-top: 100px;
   background-color: #f6f9f3;
   padding-left: 15px;
   margin-left: 5px;
   margin-right: 5px;
+  padding-bottom: 30px;
 }
 
 .list__title {
@@ -420,17 +422,25 @@ body {
   line-height: 24px;
 }
 .tabs__rewiews-inner {
-  border: 1px solid rgba(164, 197, 140, 0.6);
+  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 375px;
-  height: 140px;
+  padding: 20px;
+  background-color: #f6f9f3;
+
 }
 .tabs__rewiews-text {
+  max-width: 375px;
   padding: 38px 27px 38px 51px;
+  
+  background-color: #f6f9f3;
+  border: 1px solid rgba(164, 197, 140, 0.6);
 }
 .tabs__rewiews-link {
   position: absolute;
   left: 65px;
-  bottom: -10px;
+  bottom: 15px;
   color: #7eb252;
   font-size: 14px;
   font-weight: 600;
@@ -439,7 +449,6 @@ body {
   padding-right: 8px;
 }
 .list__link {
-  margin-top: 50px;
   display: flex;
   justify-content: flex-end;
 }
@@ -454,10 +463,11 @@ body {
   letter-spacing: 0.7px;
   cursor: pointer;
   border: none;
-  position: relative;
+  position: absolute;
   text-decoration: none;
   min-width: 500px;
   text-align: center;
+  bottom: -90px;
   
 }
 .list__link a::after {
@@ -492,6 +502,8 @@ body {
   justify-content: flex-end;
 }
 .popularity__box {
+  background-color: #fff;
+  padding: 20px;
  
 }
 .popularity__box-text {
@@ -499,14 +511,14 @@ body {
 .popularity__box-link {
 }
 .popularity__right {
-  max-width: 600px;
-  padding-right: 70px;
+  max-width: 500px;
+  padding-top: 50px;
   width: 100%;
 }
 .popularity__right-title {
   font-weight: 700;
   line-height: 50px;
-  font-size: 27px;
+  font-size: 40px;
 }
 .popularity__right-subtitle {
   padding: 50px 0;
