@@ -25,6 +25,10 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.container-fluid {
+  margin: 0 auto;
+  max-width: 1720px;
+}
 
 /* 1. секция header =========================================================================================
 ============================================================================================================= */
@@ -489,8 +493,6 @@ body {
 }
 
 .popularity__wrapper {
-  margin: 0 auto;
-  max-width: 1720px;
   background-image: url(../img/popularity.jpg);
   background-repeat: no-repeat;
   min-height: 645px;
@@ -583,4 +585,56 @@ body {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
+}
+.history {
+  padding-top: 270px;
+}
+.history__wrapper {
+  background-image: url(../img/alonso.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  min-height: 920px;
+}
+.history__inner {
+}
+.hisrory__title {
+  max-width: 570px;
+  padding: 90px 0 45px;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+}
+.history__text {
+  line-height: 24px;
+  max-width: 700px;
+  background-color: #f6f9f3;
+  padding: 55px 30px 55px 0;
+  position: relative;
+}
+.history__text::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 275px;
+  background-color: #f6f9f3;
+  top: 0;
+  right: 100%;
+}
+.history__text p{
+  margin: 10px 0;
+}
+.hisrory__form {
+  max-width: 370px;
+  margin-left: 200px;
+  padding-left: 30px;
+
+}
+.hisrory__form-title {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+ 
 }
