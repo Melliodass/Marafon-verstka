@@ -169,11 +169,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.7px;
 }
-.top-form button {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  padding: 22px 110px 22px 70px;
+.form__btn {
   color: #fff;
   background-color: #7eb252;
   font-size: 14px;
@@ -183,9 +179,16 @@ body {
   letter-spacing: 0.7px;
   cursor: pointer;
   border: none;
-
+  padding: 22px 110px 22px 70px;
+  position: relative;
 }
-.top-form button::after {
+.top-form button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 22px 110px 22px 70px;
+}
+.form__btn::after {
   content: '';
   position: absolute;
   background-image: url(../img/arrow-right.png);
@@ -625,16 +628,34 @@ body {
   margin: 10px 0;
 }
 .hisrory__form {
-  max-width: 370px;
+  max-width: 400px;
   margin-left: 200px;
   padding-left: 30px;
 
 }
 .hisrory__form-title {
+  margin: 45px 0 30px;
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 700;
   line-height: 22px;
   text-transform: uppercase;
+  letter-spacing: 0.7px;
  
+}
+.hisrory__form input {
+  border: none;
+  outline: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+  border-bottom: 1px solid #cddcbc;
+  height: 34px;
+}
+.hisrory__form input::placeholder {
+  color: #a8c48c;
+}
+.hisrory__form button {
+  width: 100%;
 }
