@@ -3,6 +3,8 @@
 /* 3. секция advantages */
 /* 4. секция link */
 /* 5. секция popularity */
+/* 6. секция hisrory */
+/* 7. секция quote  */
 
 
 *,
@@ -608,9 +610,12 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
+/* 6. секция hisrory ===========================================================================================
+============================================================================================================ */
+
 .history {
   padding-top: 270px;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 .history__wrapper {
   background-image: url(../img/alonso.jpg);
@@ -678,4 +683,46 @@ body {
 }
 .hisrory__form button {
   width: 100%;
+}
+
+/* 7. секция quote ===========================================================================================
+============================================================================================================ */
+
+.quote {
+  min-height: 620px;
+  background-image: url(../img/quotebg-left.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.quote__wrapper {
+  min-height: 620px;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background-image: url(../img/quotebg-right.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+
+.quote__inner {
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 780px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  border-bottom: 3px solid #d1e2c5;
+  border-top: 3px solid #d1e2c5;
+}
+.author {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 18px;
+}
+.author span {
+  color: #9a9a9a;
+  font-size: 16px;
 }
