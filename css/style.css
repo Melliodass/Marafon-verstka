@@ -726,3 +726,61 @@ body {
   color: #9a9a9a;
   font-size: 16px;
 }
+
+.items__title {
+  padding: 100px 0;
+  max-width: 530px;
+  font-size: 40px;
+  line-height: 50px;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+.items-wrapper {
+  background-color: #f6f9f3;
+  min-height: 385px;
+}
+.items__inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #fff;
+  max-width: 1010px;
+  margin: 0 auto;
+  position: relative;
+  top: -70px;
+  
+}
+.item {
+  width: 312px;
+  min-height: 312px;
+  border: 1px solid  #a4c58c;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item__number {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 150px;
+  letter-spacing: 8px;
+  line-height: 115px;
+  color: #f7f9f3;
+  font-weight: 900;
+}
+.item__content {
+  text-align: center;
+}
+.item_content-img {
+  position: relative;
+  margin-bottom: 30px;
+}
+.item__content-title {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
