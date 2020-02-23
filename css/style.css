@@ -795,6 +795,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 100%;
 }
 .composition__item {
   margin-bottom: 30px;
@@ -875,7 +876,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  transition: all .3s;
 
 
 }
@@ -921,3 +922,38 @@ body {
 .composition__list li {
   margin-bottom: 25px;
 }
+
+.composition__link {
+  max-width: 830px;
+  max-height: 250px;
+  border: 1px solid #a4c58c;
+  padding: 45px 95px 100px 50px;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.composition__link-text {
+  position: relative;
+  line-height: 22px;
+  padding-left: 25px;
+}
+.composition__link-text::before {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 4px;
+  background-color: #a4c58c;
+  content: '';
+}
+.composition__link-text p {
+  margin-bottom: 15px;
+}
+.composition__link-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-decoration: none;;
+}
+
