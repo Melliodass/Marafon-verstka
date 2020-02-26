@@ -5,6 +5,10 @@
 /* 5. секция popularity */
 /* 6. секция hisrory */
 /* 7. секция quote  */
+/* 8. секция popularity */
+/* 9. секция composition */
+/* 10. секция rewiews */
+
 
 
 *,
@@ -727,6 +731,9 @@ body {
   font-size: 16px;
 }
 
+/* 8. секция popularity ===========================================================================================
+============================================================================================================ */
+
 .items__title {
   max-width: 530px;
   padding: 100px 0;
@@ -784,6 +791,9 @@ body {
   font-size: 14px;
   font-weight: 700;
 }
+
+/* 9. секция composition ===========================================================================================
+============================================================================================================ */
 
 .composition {
   padding-top: 180px;
@@ -924,18 +934,18 @@ body {
 }
 
 .composition__link {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
   max-width: 830px;
   max-height: 250px;
   border: 1px solid #a4c58c;
   padding: 45px 95px 100px 50px;
-  position: relative;
-  margin-top: 20px;
-  margin-left: 20px;
 }
 .composition__link-text {
   position: relative;
-  line-height: 22px;
   padding-left: 25px;
+  line-height: 22px;
 }
 .composition__link-text::before {
   position: absolute;
@@ -952,8 +962,83 @@ body {
 }
 .composition__link-btn {
   position: absolute;
-  bottom: 0;
   right: 0;
-  text-decoration: none;;
+  bottom: 0;
+  text-decoration: none;
 }
-
+/* 10. секция rewiews ===========================================================================================
+============================================================================================================ */
+.rewiews {
+}
+.rewiews__title {
+  line-height: 50px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.container-fluid {
+}
+.rewiews__inner {
+}
+.rewiews__tabs {
+}
+.rewiews__tab {
+  display: inline-block;
+  padding: 25px 45px 25px 65px;
+  cursor: pointer;
+  text-transform: uppercase;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #c3c3c3;
+  font-size: 14px;
+  font-weight: 700;
+}
+.rewiews__tabs .active {
+  background-color: #f6f9f3;
+  color: #7eb252;
+}
+.rewiews__content {
+  
+  
+}
+.rewiews__content-item {
+  display: none;
+  background-color: #f6f9f3;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  
+}
+.rewiews__content .active-tab {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.rewiews__text {
+  position: relative;
+  max-width: 530px;
+  line-height: 22px;
+  color: #9a9a9a;
+  padding-top: 15px;
+          
+}
+.rewiews__text:nth-child(odd) {
+  padding-left: 65px;
+}
+.rewiews__text:nth-child(even) {
+  padding-right: 65px;
+}
+.rewiews__text::before {
+  position: absolute;
+  top: 0;
+  left: 65px;
+  content: '';
+  width: 30px;
+  height: 3px;
+  background-color: #a4c58c;
+}
+.rewiews__text span {
+  font-weight: 700;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
